@@ -1,0 +1,26 @@
+Package,Function,File,Line,Complexity,HasTest
+main,main,(*IniFile).token ../ipp-usb/inifile.go,165,44,false
+main,main,NewDevice ../ipp-usb/device.go,35,29,false
+main,main,main ../ipp-usb/main.go,239,27,false
+main,main,PnPStart ../ipp-usb/pnp.go,49,24,false
+main,main,NewUsbTransport ../ipp-usb/usbtransport.go,47,23,false
+main,main,confLoadInternal ../ipp-usb/conf.go,86,23,false
+main,main,EsclService ../ipp-usb/escl.go,28,22,false
+main,main,AuthHTTPRequest ../ipp-usb/auth.go,242,21,false
+main,main,parseArgv ../ipp-usb/main.go,131,20,false
+main,main,(*HTTPProxy).ServeHTTP ../ipp-usb/http.go,75,20,false
+main,main,(*UsbTransport).RoundTripWithSession ../ipp-usb/usbtransport.go,425,18,false
+main,main,(ippAttrs).getPaperMax ../ipp-usb/ipp.go,387,18,false
+main,main,(*LogMessage).Flush ../ipp-usb/logger.go,643,17,false
+main,main,globMatchInternal ../ipp-usb/glob.go,38,17,false
+main,main,libusbBuildUsbDeviceDesc ../ipp-usb/usbio_libusb.go,328,16,false
+main,main,newDnssdSysdep ../ipp-usb/dnssd_avahi.go,62,16,false
+main,main,(*IniFile).Next ../ipp-usb/inifile.go,110,14,false
+main,main,(ippAttrs).getStrings ../ipp-usb/ipp.go,470,13,false
+main,main,(*esclCapsDecoder).data ../ipp-usb/escl.go,240,13,false
+main,main,(*IniRecord).LoadAuthUIDRules ../ipp-usb/inifile.go,559,12,false
+main,main,(*DNSSdPublisher).goroutine ../ipp-usb/dnssd.go,237,12,false
+main,main,(UsbDeviceInfo).Ident ../ipp-usb/usbcommon.go,278,11,false
+main,main,TCPClientUID ../ipp-usb/tcpuid_linux.go,46,11,false
+main,main,(*QuirksDb).readFile ../ipp-usb/quirks.go,587,11,false
+main,main,(*IniRecord).LoadLogLevel ../ipp-usb/inifile.go,445,11,false

@@ -1,0 +1,8 @@
+Package,Function,File,Line,Complexity,HasTest
+main,goipp,(*messageDecoder).decode ../goipp/decoder.go,42,33,false
+main,goipp,(*messageDecoder).decodeCollection ../goipp/decoder.go,195,18,false
+main,goipp,(Time).decode ../goipp/value.go,400,17,false
+main,goipp,NewMessageWithGroups ../goipp/message.go,129,16,false
+main,goipp,(Tag).Type ../goipp/tag.go,108,13,false
+main,goipp,(*messageEncoder).encodeAttr ../goipp/encoder.go,70,11,false
+main,goipp,(*Attribute).unpack ../goipp/attr.go,164,11,false
