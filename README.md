@@ -37,6 +37,20 @@ This repository maintains research notes, logs, and resources related to automat
 * Include functions with **high cyclomatic complexity**.
 * Ensure **no test leakage** between training/evaluation sets.
 
+### [Automated Extraction Script](./cyclo.sh)
+
+This script will:
+
+1. Install `gocyclo` if not already present.
+2. Find all Go files in the project, **excluding test files**.
+3. Run `gocyclo` to identify functions with **complexity > 10**.
+4. Check for existing tests by locating corresponding `*_test.go` files and searching for test functions referencing the target function.
+5. Output results to CSV with the following columns:
+Package, Function, File, Line, Complexity, HasTest
+
+### created dataset:
+[**containerd.csv**](./containerd.csv)
+
 
 
 ## References
