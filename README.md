@@ -25,7 +25,7 @@ This repository maintains research notes, logs, and resources related to automat
 
 * Java & Kotlin have well-established datasets and frameworks.
 * Go is underexplored
-* ULT (Unit-Level Test) approaches exist for Python, but we need **ULT-Go**:
+* ULT (UnLeakedTestbench) approaches exist for Python, but we need **ULT-Go**:
   * Real-world Go functions.
   * High cyclomatic complexity.
   * No test leakage.
